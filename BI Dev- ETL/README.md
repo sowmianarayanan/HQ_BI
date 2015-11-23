@@ -5,13 +5,14 @@ I have used MySQL as database since it is Open-source and easy to install. Even 
 Below are the steps to follow:
 
 Step 1: Run primary_data.sql, It has table creation scripts for source table (primary_data schema & table creation)
+
 Step 2: Run bi_data.sql, It has table creation scripts for target BI Tables (bi_data schema & table creation), In addition to the tables explained in problem, we have three more tables 
 
 2.1. dim_datetime - Date & Time dimension table, Single dimension table having granularity at Hour level.
 
 2.2. dim_hotel - SCD Type 1: Dimension table to hold all hotel information. 
 
-2.3. job_config - To Keep track of job executions and to have lock mechanism where jobs can not start if previous execution is still running.
+2.3. job_config - To Keep track of job executions and to have lock mechanism where jobs cannot start if previous execution is still running.
 
 Step 3: Run the script dim_datetime.sql ( Prerequisites script )
 
