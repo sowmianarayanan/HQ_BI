@@ -22,3 +22,15 @@ Data Cleaning script checks for data inconsistencies in valid_offers.Due to Time
   # offer_valid_to - Valid Date Check
   
   # offer_valid_from & offer_valid_to - difference between should not be more than 30 days
+  
+  Test Cases for fx_rate table ( Not implemented in Script )
+  
+  # currency_rate - Not Null & Not Equal to 0 Check
+  
+  # Currency_rate - Multiple Entries for the same day - Dedup old entries for same day.
+  
+  Test Cases for  lst_currency ( Not implemented in Script )
+  
+  # Code - Not Null & Char.Length Check
+  
+  # Name - Not Null Check.
