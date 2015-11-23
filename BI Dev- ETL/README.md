@@ -49,3 +49,20 @@ Step 5: populate_hotel_offers.sql : ETL Script to process source table info bi_d
 5.5 . On Duplicate Key Constraint, Update the valid_offer_flag with the recent (takes care of changing invalid to valid offer and vice-versa).
 
 5.6 . Update the Job_config with status 'Completed' on completion.
+
+
+Execution Steps:
+
+1. Execute primary_data.sql
+2. Execute bi_data.sql
+3. Execute dim_date_time.sql
+4. Execute populate_valid_offers.sql
+5. Execute populate_hotel_offers.sql
+6. call create_dim_datetime('2011-01-01','2020-10-01');
+7. call populate_valid_offers();
+8. call populate_hotel_offers();
+
+Data Cleaning:
+9. Execute data-cleaning/data_cleaning.sql
+10. call data_cleaning();
+
