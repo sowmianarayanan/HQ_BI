@@ -1,6 +1,6 @@
 Hi,
 
-I have used MySQL as database since it is Open-source and easy to install. Even though I am familiar with Pentaho Kettle ETL & Oracle PL/SQL , I have picked MySQL and creating Stored procedures in MySQL just to come out of my comfort zone.
+I have used MySQL as database since it is Open-source and easy to install. Even though I am familiar with Pentaho Kettle ETL, Amazon Redshift & Oracle PL/SQL , I have picked MySQL and creating Stored procedures in MySQL just to come out of my comfort zone.
 
 Below are the steps to follow:
 
