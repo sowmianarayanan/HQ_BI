@@ -2,6 +2,8 @@ Hi,
 
 I have used MySQL as database since it is Open-source and easy to install. Even though I am familiar with Pentaho Kettle ETL, Amazon Redshift & Oracle PL/SQL , I have picked MySQL and creating Stored procedures in MySQL just to come out of my comfort zone.
 
+Since I had very less time during working days, I was unable to follow exact conventions and include error handlers in proc. please excuse for missing few things.
+
 Below are the steps to follow:
 
 Step 1: Run primary_data.sql, It has table creation scripts for source table (primary_data schema & table creation)
