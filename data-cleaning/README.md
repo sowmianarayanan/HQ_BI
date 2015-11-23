@@ -1,6 +1,8 @@
 
 Data Cleaning script checks for data inconsistencies in valid_offers.Due to Time constraints I have created a simple script which checks for few test cases in key fields from this table.
 
+Error log is added to bi_data.offer_error with all the fields from primary_data.offer & additional error_description field that has detailed error information.
+
 valid_offers Validation:
 
   # hotel_id - Not Null and Valid Number checks
